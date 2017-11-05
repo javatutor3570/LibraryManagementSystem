@@ -1,0 +1,39 @@
+Library Management System ( What shoud this system support ?)
+1) Book
+2) Author
+3) User
+4) Name
+5) Address
+
+
+1) Book:
+    a) ISBN number (String)
+    b) Title (String)
+    c) Author (Author)
+
+2) Author:
+    a) Name (Name)
+    b) Address (Address)
+    c) Designation (String)
+
+3) Name:
+    a) firstName (String)
+    b) lastName (String)
+    c) Title (String)
+
+4) Address:
+    a) Street (String)
+    b) City(String)
+    c) Zip(String)
+    d) State(String)
+    e) AptNumber(String)
+
+5) User:
+    a) Name (Name)
+    b) Address ( Address )
+    c) Type (String) ( Staff, Student, Faculty )
+    d) userId (String)
+
+Contract:
+    Book boorrowBook(Book b)
+    void returnBook(Book b)
